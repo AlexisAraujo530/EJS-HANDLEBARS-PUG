@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Brahma",
+    "price": 220,
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNfCk9yS_DXttu8UlrUG9-EtehBASbiC7n2tFmwbdkmi_LuoQypBm3E4xjbCDCiESsSaE&usqp=CAU"
+  },
+  {
+    "name": "Coca-Cola",
+    "price": 185,
+    "thumbnail": "https://statics.dinoonline.com.ar/imagenes/full_600x600_ma/3080015_f.jpg"
+  },
+  {
+    "name": "Leche Sach",
+    "price": 190,
+    "thumbnail": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/160/839/products/013-003-008_leche-sachet-cotar-entera-x-1-litro1-09be66ccd63778636415885191543001-640-0.jpg"
+  },
+  {
+    "name": "arroz",
+    "price": "25",
+    "thumbnail": "https://www.hogarmania.com/archivos/202204/como-hacer-arroz-blanco-xl-1280x720x80xX.jpg",
+    "id": 4
+  }
+]

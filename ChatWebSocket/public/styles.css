@@ -11,9 +11,12 @@ body {
   position: sticky;
 }
 .form {
-  display: block;
+  display: flex;
   text-align: center;
   position: sticky;
+  top: 0;
+  left: 0;
+  
 }
 .chat-box {
   position: relative;
@@ -47,7 +50,7 @@ body {
   height: 347px;
   overflow: scroll;
   overflow-x:hidden;
-  background-color: #84c4f8ec;
+  background-color: #b4ddffec;
 }
 
 .message-bar {
