@@ -1,25 +1,28 @@
 * {
   box-sizing: border-box;
+
 }
 body {
   background-color: #535353;
   font-family: "Calibri", "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 .title {
-  display: block;  
+  display: flex;  
   text-align: center;
-  position: sticky;
+  
 }
 .form {
   display: flex;
-  text-align: center;
+  flex-direction: row;
   position: sticky;
   top: 0;
   left: 0;
   
 }
 .chat-box {
-  position: relative;
+  display: flex;
   list-style: none;
   padding: 20px 10px 0 10px;
   margin: 0;
@@ -28,7 +31,12 @@ body {
 }
 
 .chat_window {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: flex-end;
+
+  position: relative;
   width: calc(100% - 20px);
   max-width: 800px;
   height: 500px;
