@@ -10,6 +10,7 @@ const datos = require('./src/Products/products.js').listOfProducts()
 const messages = require('./public/messages.json')
 const MessagesActions = require('./src/Controller/msgController').MessagesActions
 
+
 //middleware
 app.set('views', 'public');
 app.set('view engine', 'ejs');

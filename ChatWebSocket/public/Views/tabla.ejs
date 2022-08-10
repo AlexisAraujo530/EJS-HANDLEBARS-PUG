@@ -1,4 +1,4 @@
-<table class="table" style="margin: 0 auto; width: 50%;">
+<table class="table" style="margin: 0 auto; width: 50%;" >
     <thead>
         <tr>
             <th scope="col">Producto</th>
@@ -6,7 +6,7 @@
             <th scope="col">Thumbnail</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody class="tbody" >
         <!-- if no datos -->
         <% if (datos.length===0) { %>
             <tr>
@@ -25,5 +25,5 @@
                         <td><img src="<%=datos[i].thumbnail%>" alt="imagen" class="img-thumbnails" width="200" ></td>
                     </tr>
                     <% } } %>
-    </tbody>
+    </tbody >
 </table>
